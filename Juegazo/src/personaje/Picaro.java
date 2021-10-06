@@ -11,6 +11,10 @@ public class Picaro extends Personaje {
     public void seleccionClase() {
         System.out.println("Seleccionando clase picaro.");
     }
+    @Override
+    public void armaPrincipal() {
+        System.out.println("El arma principal del picaro es la daga.");
+    }
     
     public void ataqueSigiloso(){
         int golpe = 10;
@@ -31,4 +35,6 @@ public class Picaro extends Personaje {
             System.out.println("El picaro no ha robado nada");
         }
     }
+
+
 }

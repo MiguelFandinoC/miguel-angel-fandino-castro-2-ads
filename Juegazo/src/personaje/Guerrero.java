@@ -15,6 +15,12 @@ public class Guerrero extends Personaje implements habilidadesPersonaje{
     public void seleccionClase() {
         System.out.println("Seleccionando clase guerrero.");
     }
+    
+    @Override
+    public void armaPrincipal() {
+        System.out.println("El arma principal del guerrero es la espada larga");
+    }
+    
 
     @Override
     public void ataqueBasico() {
@@ -33,5 +39,7 @@ public class Guerrero extends Personaje implements habilidadesPersonaje{
         int habilidad = 6;
         System.out.println("El golpe pesado del guerrero causa: "+habilidad+" puntos de daño.");
     }
+
+
     
 }

@@ -12,9 +12,10 @@ public abstract class Personaje{
         seleccionAtuendo();
         seleccionClase();
         seleccionRaza();
+        armaPrincipal();
     }
     public abstract void seleccionClase();
-    
+    public abstract void armaPrincipal();
     
     public void seleccionFaccion() {
         System.out.println("Creando personaje de la Horda");

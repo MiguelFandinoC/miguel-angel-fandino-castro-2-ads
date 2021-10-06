@@ -41,6 +41,7 @@ public class Jugador {
             Picaro picar = new Picaro();
             picar.creacionPersonaje();
             habilidadesPersonaje picarAdapt = new AdaptadorPicaro(picar);
+            System.out.println("Estas son las habilidades de tu clase:");
             picarAdapt.ataqueBasico();
             picarAdapt.vendaje();
             picarAdapt.ataquePesado();
